@@ -1,6 +1,0 @@
-node_modules/
-auth_info/
-tmp/
-.env
-bot_state.json
-group_state.json
