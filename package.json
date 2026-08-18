@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-ai-bot",
+  "version": "1.0.0",
+  "description": "بوت واتساب ذكي مبني على Gemini",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.7.0",
+    "@whiskeysockets/baileys": "6.7.22",
+    "dotenv": "^16.4.5",
+    "duck-duck-scrape": "^2.2.7",
+    "fluent-ffmpeg": "^2.1.3",
+    "jimp": "1.6.1",
+    "pino": "^9.4.0",
+    "play-dl": "^1.9.7",
+    "youtubei.js": "^11.0.0",
+    "yt-search": "^2.11.0"
+  }
+}

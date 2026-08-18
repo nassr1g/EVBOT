@@ -1,0 +1,27 @@
+إليك توضيح للملفات :
+جميع المحتويات هي في مجلد اسمه .1bot في الداخلية للهاتف
+الملفات التالية تقع في مجلد اسمه lib (يعني المسار هو "cd /storage/emulated/0/.1bot/lib") :
+1.gemini.js
+2.groupState.js
+3.media.js
+4.rateLimit.js
+5.targetResolver.js
+6.utils.js
+7.whatsappActions.js
+8.memory.js
+9.stickerPack.js
+10.photoPack.js
+11.usageTracker.js
+12.messageLog.js
+الملفات المتبقية تقع خارج المجلد lib (يعني المسار هو "cd /storage/emulated/0/.1bot") والملفات هي :
+1.env
+2.bot_state.json
+3.config.js
+4.index.js
+5.list_models.js
+6.package.json
+7.package-lock.json
+8.keepalive.js
+9.group_state.json
+10.usage_state.json (يُنشأ تلقائياً عند أول تشغيل — يخزّن عدادات استهلاك Gemini/Tavily/Serper)
+ملف .env هو ملف خاص للـ apis

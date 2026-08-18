@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+tmp
+auth_info
+.env
+.env.local
+.git
+.gitignore
+README
+*.md
+usage_state.json
+message_log_state.json
